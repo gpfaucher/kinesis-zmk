@@ -14,8 +14,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
             hold-trigger-on-release;
